@@ -13,9 +13,16 @@ int main()
 	cout << "Mời bạn nhập b: ";
 	cin >> b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT\n";
-	cout << "Hieu 2 số a-b= "<< hieu(a,b);
+	cout << "Tong 2 số a+b= "<< tong(a,b);
+	cout << "hieu 2 số a-b= "<< hieu(a,b);
 	system("pause");
 	return 0;
+}
+int tong(int a, int b)
+{
+	int s = 0;
+	s = a + b;
+	return s;
 }
 int hieu(int a, int b)
 {
