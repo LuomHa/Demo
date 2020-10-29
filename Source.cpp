@@ -5,10 +5,6 @@ int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
-float tinhchuvihcn(int cd, int cr);
-float dientichhcn(int cd, int cr);
-int tinhdientichhinhvuong(int a);
-int tinhchivihinhvuong(int a);
 	
 int main()
 {
@@ -22,10 +18,7 @@ int main()
 	cout<< " Thuong 2 số a/b="<<thuong(a,b);
 	cout << "Tong 2 số a+b= "<< tong(a,b);
 	cout << "Tich 2 số a+b= "<< tich(a,b);
-	cout << "chu vi hinh chu nhat =" << tinhchuvihcn(a, b);
-	cout << "dien tich hinh chu nhat=" << dientichhcn(a, b);
-	cout << "chu vi hinh vuong canh a " << tinhchivihinhvuong(a);
-	cout << "dien tich hinh vuong canh a " << tinhdientichhinhvuong(a);
+	
 	system("pause");
 	return 0;
 }
@@ -56,25 +49,3 @@ int tich(int a, int b)
 	return s;
 }
 
-float tinhchuvihcn(int cd, int cr)
-{
-	float cv = (cd + cr) * 2;
-	return cv;
-}
-float dientichhcn(int cd, int cr)
-{
-	float dt = cd * cr;
-	return dt;
-}
-int tinhchivihinhvuong(int a){
-	int s = 0;
-	S=a*2;
-	return s;
-
-}
-int tinhdientichhinhvuong(int a){
-	int s = 0;
-	S=a*a;
-	return s;
-
-}
