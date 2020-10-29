@@ -13,13 +13,13 @@ int main()
 	cout << "Mời bạn nhập b: ";
 	cin >> b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT\n";
-	cout << "Tổng 2 số a+b= "<< tong(a,b);
+	cout << "Hieu 2 số a-b= "<< hieu(a,b);
 	system("pause");
 	return 0;
 }
-int tong(int a, int b)
+int hieu(int a, int b)
 {
 	int s = 0;
-	s = a + b;
+	s = a - b;
 	return s;
 }
