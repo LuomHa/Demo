@@ -78,3 +78,32 @@ int tinhdientichhinhvuong(int a){
 	return s;
 
 }
+
+int tong(int a, int b)
+{
+	int s = 0;
+	s = a + b;
+	return s;
+}
+int hieu(int a, int b)
+{
+	int s = 0;
+	s = a - b;
+	return s;
+}
+
+int thuong(int a, int b)
+{
+	int s = 0;
+	s = a / b;
+	return s;
+}
+
+int tich(int a, int b)
+{
+	int s = 0;
+	s = a * b;
+	return s;
+}
+
+
