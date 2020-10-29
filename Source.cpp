@@ -119,3 +119,17 @@ bool kiemTra(intkq,int a, int b){
 	else
 		return false;
 }
+void phepTru(){
+	srand(time(NULL));
+	int a=rand()%100+1;
+	int b=rand()%100+1;
+	cout <<"so a: "<<a<<endl;
+	cout <<"so b: "<<b<<endl;
+	cout<<:Ket qua la:"<<a-b<<endl;
+}
+bool kiemTra(intkq,int a, int b){
+	if(kq==(a-b))
+		return true;
+	else
+		return false;
+}
